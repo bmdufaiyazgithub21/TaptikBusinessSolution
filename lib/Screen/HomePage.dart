@@ -53,9 +53,12 @@ class _HomepageState extends State<Homepage> {
                       subtitle: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("First Name: ${item['firstName']}"),
+                          Text("First Name: ${item['OwnerName']}"),
                           Text("Business Name: ${item['businessName']}"),
                           Text("Mobile Number: ${item['mobileNumber']}"),
+                          Text("City Name: ${item['city']}"),
+                          Text("State Name: ${item['state']}"),
+                          Text("Zip Name: ${item['zip']}"),
                         ],
                       ),
                       trailing: IconButton(
